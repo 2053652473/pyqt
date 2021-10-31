@@ -15,12 +15,11 @@ class TabDemo(QTabWidget):
         self.tab2=QWidget()
         self.tab3=QWidget()
 
-        #将三个选项卡添加到顶层窗口中
+
         self.addTab(self.tab1, "Tab 1")
         self.addTab(self.tab2, "Tab 2")
         self.addTab(self.tab3, "Tab 3")
-        #
-        # #每个选项卡自定义的内容
+
         self.tab1UI()
         # self.tab2UI()
         # self.tab3UI()
